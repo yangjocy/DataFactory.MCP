@@ -34,11 +34,11 @@ A Model Context Protocol (MCP) server for Microsoft Fabric resource discovery an
 
 ## Available Resources
 
-The server also exposes interactive UI forms as MCP App resources (rendered inside VS Code chat):
+The server exposes interactive UI forms as MCP App resources, rendered directly inside VS Code chat:
 
 | Resource URI | Description |
 |---|---|
-| `ui://datafactory/create-connection` | Guided form for creating a new data source connection |
+| `ui://datafactory/create-connection` | Guided wizard for creating a new data source connection ([details](docs/connection-management.md#create-connection-wizard)) |
 
 ## Quick Start
 
